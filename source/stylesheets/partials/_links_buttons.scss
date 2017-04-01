@@ -1,0 +1,14 @@
+.btn{
+	border-radius:100px;
+	&.btn-primary{
+		background-color:$primary-color;
+	}
+	&.btn-wire{
+		border:2px solid rgba(255,255,255,.5);
+		color:white;
+		@include transition-duration(.2s);
+		&:hover{
+			border-color:white;
+		}
+	}
+}
